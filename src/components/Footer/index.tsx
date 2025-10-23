@@ -1,7 +1,7 @@
-import { SOCIAL_LINKS } from "@/components/Footer/constatns";
+import { SOCIAL_LINKS } from "@/components/Footer/constatns"
 
 export function Footer() {
-  const year = new Date().getFullYear();
+  const year = new Date().getFullYear()
 
   return (
     <footer className="fixed bottom-0 left-0 right-0 flex flex-col items-center justify-center gap-3 px-6 py-4">
@@ -23,5 +23,5 @@ export function Footer() {
         Copyright © {year} Zalmoxis Labs
       </p>
     </footer>
-  );
+  )
 }

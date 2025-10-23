@@ -1,5 +1,5 @@
-import { GithubIcon } from "@/components/Footer/Icons/GithubIcon";
-import { LinkedinIcon } from "@/components/Footer/Icons/LinkedinIcon";
+import { GithubIcon } from "@/components/Footer/Icons/GithubIcon"
+import { LinkedinIcon } from "@/components/Footer/Icons/LinkedinIcon"
 
 export const SOCIAL_LINKS = [
   {
@@ -16,4 +16,4 @@ export const SOCIAL_LINKS = [
       <GithubIcon />
     ),
   },
-];
+]

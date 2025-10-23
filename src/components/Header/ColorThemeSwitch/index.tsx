@@ -1,13 +1,13 @@
-"use client";
+"use client"
 
-import { useCallback } from "react";
-import { useTheme } from "next-themes";
-import { DarkIcon } from "@/components/Header/ColorThemeSwitch/Icons/DarkIcon";
-import { LightIcon } from "@/components/Header/ColorThemeSwitch/Icons/LightIcon";
-import { Themes } from "@/components/Header/ColorThemeSwitch/types";
+import { useCallback } from "react"
+import { useTheme } from "next-themes"
+import { DarkIcon } from "@/components/Header/ColorThemeSwitch/Icons/DarkIcon"
+import { LightIcon } from "@/components/Header/ColorThemeSwitch/Icons/LightIcon"
+import { Themes } from "@/components/Header/ColorThemeSwitch/types"
 
 export function ColorThemeSwitch() {
-  const { resolvedTheme, setTheme } = useTheme();
+  const { resolvedTheme, setTheme } = useTheme()
 
   const onSwitchTheme = useCallback((theme: Themes) => {
     if (resolvedTheme !== theme) {

@@ -1,6 +1,6 @@
-import Link from 'next/link';
-import { ColorThemeSwitch } from "@/components/Header/ColorThemeSwitch";
-import { HEADER_LINKS } from '@/components/Header/constants';
+import Link from 'next/link'
+import { ColorThemeSwitch } from "@/components/Header/ColorThemeSwitch"
+import { HEADER_LINKS } from '@/components/Header/constants'
 
  const links = Object.entries(HEADER_LINKS)
 

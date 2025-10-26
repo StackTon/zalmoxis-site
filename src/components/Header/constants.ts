@@ -1,4 +1,4 @@
-import { PAGES } from "@/app/constants";
+import { PAGES } from '@/app/constants'
 
 export const HEADER_LINKS = {
   Work: PAGES.Work,
